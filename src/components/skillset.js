@@ -1,26 +1,43 @@
 import React from 'react';
 import { Progress } from 'reactstrap';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Skills = () => {
   return (
     <div className="skillset">
+
       <h3>What do I know?</h3>
+      
       <div className="text-center">HTML5</div>
-      <Progress value="70"/>
+      <Progress animated value="70"/>
+
       <div className="text-center">CSS</div>
-      <Progress value="60" />
+      <Progress animated value="60" />
+
       <div className="text-center">LESS</div>
-      <Progress value={60} />
+      <Progress animated value={60} />
+
       <div className="text-center">JavaScript</div>
-      <Progress value="70" />
+      <Progress animated value="70" />
+
       <div className="text-center">React.js</div>
-      <Progress value={50} />
+      <Progress animated value={50} />
+
       <div className="text-center">BootStrap/ReactStrap</div>
-      <Progress value="40" />
+      <Progress animated value="40" />
+
       <div className="text-center">UI/UX</div>
-      <Progress value="30" />
+      <Progress animated value="30" />
+
       <div className="text-center">Git Version Control</div>
-      <Progress value="80" />
+      <Progress animated value="80" />
+
+      <div className="next">
+        <AnchorLink href="#proj">
+        <img src="https://img.icons8.com/color/48/000000/expand-arrow.png" />
+        </AnchorLink>
+      </div>
+
     </div>
   );
 };

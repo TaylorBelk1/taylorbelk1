@@ -42,7 +42,7 @@ const items = [
 const Projects = () => {
   return(
     <div className="projects-wrapper">
-    <h3 className="proj-intro">Check out a few of my <span>projects:</span></h3>
+    <h3 className="proj-intro" id="proj">Check out a few of my <span>projects:</span></h3>
       <div className="projects">
         <UncontrolledCarousel items={items} />
       </div>

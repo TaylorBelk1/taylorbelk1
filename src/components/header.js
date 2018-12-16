@@ -1,7 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-
 const Header = () => {
     return(
         <div className="header-wrap">
