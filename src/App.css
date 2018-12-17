@@ -438,7 +438,7 @@ span {
 #bio {
   width: 30%;
   padding: 20px;
-  margin: 20px;
+  margin: 150px 20px;
   border-right: 2px solid #DAE3E5;
 
   display: flex;
@@ -501,7 +501,7 @@ span {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #00A6FB;
 }
 
 /*Footer Styling*/
